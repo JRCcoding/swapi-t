@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import './Media/Starjedi.ttf'
+import './Media/soloist-hollow.otf'
+import './Media/DeathStar.ttf'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 

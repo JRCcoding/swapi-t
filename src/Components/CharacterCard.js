@@ -51,7 +51,7 @@ const CharacterCard = () => {
     setOpen(false)
   }
   const titleStyle = {
-    width: '35%',
+    width: '32%',
     marginLeft: 'auto',
     marginRight: 'auto',
   }
@@ -81,6 +81,7 @@ const CharacterCard = () => {
     textDecoration: 'none',
     textAlign: 'center',
     backgroundColor: 'black',
+    cursor: 'pointer',
   }
   const openCharCardStyle = {
     width: '50%',
@@ -123,9 +124,12 @@ const CharacterCard = () => {
 
         <h3
           style={{
-            fontFamily: 'Starjedi',
-            scale: '2.5',
-            marginLeft: '12%',
+            fontFamily: 'DeathStar',
+            scale: '1.5',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '40%',
+            textAlign: 'center',
             color: 'gold',
           }}
         >
@@ -153,7 +157,7 @@ const CharacterCard = () => {
               >
                 <h2
                   style={{
-                    fontFamily: 'Starjedi',
+                    fontFamily: 'DeathStar',
                     marginTop: '-.0%',
                     scale: '1.2',
                     color: 'gold',
